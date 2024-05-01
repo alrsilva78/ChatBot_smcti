@@ -72,7 +72,8 @@
                             let botResponse = data.response;
                     
                             // Append bot's response to the chatbox
-                            $("#chat-widget-messages").append("<div><strong>Bot3:</strong> " + botResponse + "</div>");
+                            $("#chat-widget-messages").append('<div><img src="/static/img/homen.png" alt="avatar 1" style="width: 45px; height: 100%;"> <strong>Bot:</strong> ' + botResponse + '</div>');
+
                         },
                         error: function() {
                             // Handle error if needed
