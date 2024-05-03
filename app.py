@@ -10,7 +10,6 @@ app = Flask(__name__, static_url_path="/static")
 def index():
     return render_template("index.html")
 
-
 @app.route("/webhook", methods=["POST"])
 def webhook():
     user_message = request.json["message"]
@@ -29,7 +28,6 @@ def webhook():
     )
 
     return jsonify({"response": bot_response})
-
 
 if __name__ == "__main__":
     app.run(debug=True, port=3000)
