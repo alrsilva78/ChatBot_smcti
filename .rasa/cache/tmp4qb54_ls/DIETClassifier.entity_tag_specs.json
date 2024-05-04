@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-comecar",
+      "2": "I-comecar",
+      "3": "L-comecar",
+      "4": "U-comecar",
+      "5": "B-prefeitura",
+      "6": "I-prefeitura",
+      "7": "L-prefeitura",
+      "8": "U-prefeitura",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-comecar": 1,
+      "I-comecar": 2,
+      "L-comecar": 3,
+      "U-comecar": 4,
+      "B-prefeitura": 5,
+      "I-prefeitura": 6,
+      "L-prefeitura": 7,
+      "U-prefeitura": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

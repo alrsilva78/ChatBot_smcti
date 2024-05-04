@@ -29,4 +29,16 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: iniciar bot
+  steps:
+  - intent: welcome
+  - action: utter_welcome 
+  - intent: ajuda
+  - action: utter_ajuda
+
+- story: info_prefeitura
+  steps:
+  - intent: prefeitura
+  - action: utter_prefeitura
+
 
